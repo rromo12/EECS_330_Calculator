@@ -1,0 +1,72 @@
+
+
+*{font-family: sans-serif;
+  font-size: 18px
+	}
+
+
+.main {color:black;
+	height:400px;
+	width:360px;
+	padding: 25px;
+	font-size: 40px;
+	 background: -webkit-linear-gradient(#DBDBDB,#B0B0B0); /* For Safari 5.1 to 6.0 */
+  		 background: -o-linear-gradient(#DBDBDB,#B0B0B0); /* For Opera 11.1 to 12.0 */
+  		 background: -moz-linear-gradient(#DBDBDB,#B0B0B0); /* For Firefox 3.6 to 15 */
+	  	 background: linear-gradient(#DBDBDB,#B0B0B0); /* Standard syntax */
+}
+
+#operators {color: grey;}
+.display{
+	/*border: 3px;*/
+	height:50px;
+	width: 325px;
+	background-color:#F0FBC8;
+	border-radius: 5px;
+	text-align: right;
+	border-style:inset;
+	padding-right: 25px;
+
+}
+
+
+/*CSS for Buttons*/
+/*Equal button height 100px witdth 50*/ 
+#equal {
+		vertical-align: text-bottom;
+		height: 104px;
+		position: relative;
+		margin-bottom: -54px;
+		padding-top: 72px;
+
+		}
+#zero {
+	width: 172px;
+		}
+
+.equal{
+
+
+
+}
+.button{
+		vertical-align: top;
+		display: inline;
+		width:80px;
+		height:50px;
+		border-style: ridge;
+		border-radius: 15px;
+		 background: -webkit-linear-gradient(#DBDBDB , #D7D7D7); /* For Safari 5.1 to 6.0 */
+  		 background: -o-linear-gradient(#DBDBDB , #D7D7D7); /* For Opera 11.1 to 12.0 */
+  		 background: -moz-linear-gradient(#DBDBDB , #D7D7D7); /* For Firefox 3.6 to 15 */
+	  	 background: linear-gradient(#DBDBDB , #D7D7D7); /* Standard syntax */
+		 background-color: #B1B3B3;
+         box-shadow: 5px 5px 5px #2C4343;
+         margin: 3px;
+}
+
+.button:hover{	 
+		         box-shadow: 3px 3px 5px #2C4343;
+		         
+
+		       };

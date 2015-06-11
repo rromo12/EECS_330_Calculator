@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css"></style>
+
+<head>
+	<link rel="stylesheet" href="Calculator.css">
+	<title>Calculator</title>
+	Calculator
+</head>
+
+
+
+<body>
+		<div class="main" >
+
+			<div class="display" id="display">
+					<span id="num">4,856,995.2</span>
+
+			<div>
+				<span id="operators">
+						<span id = "plus" >&plus;</span>
+						<span id = "minus">&minus;</span>
+						<span id = "divide">&divide;</span>
+						<span id = "times">&times;</span>
+				</span>
+			</div>
+		</div>
+			
+			<div>
+					<button class ="button"  onclick="MemClear()">MC</button>
+					<button class ="button"  onclick="MemAdd()">M+</button>
+					<button class ="button"  onclick="MemDel()">M-</button>
+					<button class= "button" onclick="MemRec()">MR</button>
+			</div>
+			<div>
+					<button class ="button"  onclick="Clear()">C</button>
+					<button class ="button"  onclick="Negate()"> &plusmn;</button>
+					<button class ="button"  onclick="SetOperation('/')">&divide;</button>
+					<button class ="button"  onclick="SetOperation('*')">&times;</button>
+			</div>
+			<div>
+					<button class ="button" onclick="input('7')">7</button>
+					<button class ="button" onclick="input('8')">8</button>
+					<button class ="button" onclick="input('9')">9</button>
+					<button class ="button" onclick="SetOperation('-')">&minus;</button>
+			</div>
+			<div>
+					<button class ="button" onclick="input('4')">4</button>
+					<button class ="button" onclick="input('5')">5</button>
+					<button class ="button" onclick="input('6')">6</button>
+					<button class ="button" onclick="SetOperation('+')">+</button>
+			</div>
+			<div>
+				<span>
+						<div>
+							<button class ="button" onclick="input('1')">1</button>
+							<button class ="button" onclick="input('2')">2</button>
+							<button class ="button" onclick="input('3')">3</button>
+							<span class="equal"><button class="button" id= "equal" onclick="calculate()" >=</button></span>
+						</div>
+						<button class ="button" id="zero" onclick="input('0')">0</button>
+				</span>
+				
+				<span>	
+						<button class ="button" onclick="input('10')">.</button>	
+				</span>	
+
+			</div>	
+
+			
+
+
+		</div>
+
+	<script src="Calculator.js"></script>
+</body>
+</html>
